@@ -6,6 +6,7 @@ def get_first_name_of_season_winner(data, season)
       if value == "Winner"
         name = info["name"]
       binding.pry
+      end
     end
   end
 end
