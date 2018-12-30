@@ -39,7 +39,12 @@ def get_contestant_name(data, occupation)
 end
 
 def count_contestants_by_hometown(data, hometown)
-  # code here
+  data.each do |season, info|
+    info.each do |stats|
+      stats.each do |key, value|
+        binding.pry
+      end
+    end
 end
 
 def get_occupation(data, hometown)
