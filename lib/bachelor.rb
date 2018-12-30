@@ -30,6 +30,7 @@ def get_contestant_name(data, occupation)
   data.each do |season, info|
     info.each do |stats|
       stats.each  do |key, value|
+        if value == occupation
 binding.pry
       end
     end
