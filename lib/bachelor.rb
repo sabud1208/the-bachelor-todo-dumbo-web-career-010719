@@ -11,7 +11,6 @@ data.each do |season, info|
   end
 end
 winner
-binding.pry
 end
 
 def get_first_name_of_season_winner(data, season)
