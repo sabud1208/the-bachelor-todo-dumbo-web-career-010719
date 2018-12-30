@@ -1,5 +1,5 @@
 require "pry"
-def winner(data, season)
+def winner
 winner = []
 data.each do |season, info|
   info.each do |contestant|
