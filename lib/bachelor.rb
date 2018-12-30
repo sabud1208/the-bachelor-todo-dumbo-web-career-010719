@@ -58,6 +58,7 @@ def get_average_age_for_season(data, season)
     if value == info["age"]
       ages << info["age"]
       ages.reduce(:+)
+      binding.pry
     end
     end
   end
