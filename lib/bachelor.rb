@@ -11,7 +11,7 @@ def get_first_name_of_season_winner(data, season)
       end
     end
   end
-  data.keys.each do |season|
+  data.each do |season|
 
 binding.pry
 end
