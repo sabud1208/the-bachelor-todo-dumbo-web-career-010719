@@ -32,7 +32,6 @@ def get_contestant_name(data, occupation)
       stats.each  do |key, value|
         if value == occupation
           stats["name"]
-binding.pry
        end
       end
     end
