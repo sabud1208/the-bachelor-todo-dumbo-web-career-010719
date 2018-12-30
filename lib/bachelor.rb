@@ -13,11 +13,11 @@ end
 
 
 def get_contestant_name(data, occupation)
-  data.each do |season, info|
-    info.each do |stats|
-      stats.each  do |key, value|
+  ages= []
+  data[season].each do |season, info|
+    info.each do |key, value|
         if value == occupation
-          return stats["name"]
+           ages << stats["age"]
        end
       end
     end
@@ -51,5 +51,7 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  # code here
+  data.each do |season, info|
+    info.each do |stats|
+      stats.each do |key, value|
 end
