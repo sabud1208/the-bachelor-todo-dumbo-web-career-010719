@@ -13,17 +13,15 @@ end
 
 
 def get_contestant_name(data, occupation)
-  ages= []
-  data[season].each do |season, info|
-    info.each do |key, value|
+  data.each do |season, info|
+    info.each do |stats|
+      stats.each  do |key, value|
         if value == occupation
-           ages << stats["age"]
-           binding.pry
+          return stats["name"]
        end
+      end
     end
   end
-end
-end
 end
 
 def count_contestants_by_hometown(data, hometown)
@@ -56,4 +54,5 @@ def get_average_age_for_season(data, season)
   data.each do |season, info|
     info.each do |stats|
       stats.each do |key, value|
+
 end
