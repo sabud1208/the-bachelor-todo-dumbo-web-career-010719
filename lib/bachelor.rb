@@ -20,7 +20,6 @@ def get_contestant_name(data, occupation)
            ages << stats["age"]
            binding.pry
        end
-      end
     end
   end
 end
