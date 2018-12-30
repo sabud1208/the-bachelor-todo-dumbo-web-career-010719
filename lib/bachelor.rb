@@ -58,9 +58,8 @@ def get_average_age_for_season(data, season)
     if key == "age"
       contestants += 1
       ages += value.to_f
+      binding.pry
     end
     end
   end
-  average= ages.
-    binding.pry
 end
