@@ -29,7 +29,9 @@ end
 def get_contestant_name(data, occupation)
   data.each do |season, info|
     info.each do |stats|
-      binding.pry
+      stats.each  do |key, value|
+binding.pry
+      end
     end
   end
 end
