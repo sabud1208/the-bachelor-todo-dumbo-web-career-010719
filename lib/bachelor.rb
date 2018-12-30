@@ -56,6 +56,8 @@ def get_occupation(data, hometown)
   data.each do |season, info|
     info.each do |stats|
       stats.each do |key, value|
+        if value == hometown
+          return stats["occupation"]
       end
     end
   end
