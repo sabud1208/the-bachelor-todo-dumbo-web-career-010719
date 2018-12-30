@@ -56,8 +56,8 @@ def get_average_age_for_season(data, season)
   data[season].each do |info|
     info.each do |key, value|
     if value == info["age"]
-      ages << info["age"]
-      counter = ages.reduce(:+)
+      counter += 1
+      binding.pry
     end
     end
   end
