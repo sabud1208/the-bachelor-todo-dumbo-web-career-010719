@@ -18,6 +18,7 @@ def get_contestant_name(data, occupation)
     info.each do |key, value|
         if value == occupation
            ages << stats["age"]
+           binding.pry
        end
       end
     end
