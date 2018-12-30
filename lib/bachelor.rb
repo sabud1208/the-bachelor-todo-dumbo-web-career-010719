@@ -51,12 +51,12 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  ages = []
+  ages = 0
   counter= 0
   data[season].each do |info|
     info.each do |key, value|
     if value == info["age"]
-      info["age"]
+      ages << info["age"]
       binding.pry
     end
     end
