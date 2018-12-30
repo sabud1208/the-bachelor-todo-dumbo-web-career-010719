@@ -5,10 +5,11 @@ def get_first_name_of_season_winner(data, season)
     info.each do |key, value|
       if value == "Winner"
         name = info["name"]
+          name.split.first
       end
     end
   end
-  name.split.first
+
   binding.pry
 end
 
