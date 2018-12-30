@@ -12,7 +12,6 @@ def get_first_name_of_season_winner(data, season)
   end
   winner.split(" ").first
   winner.split.first
-  winner
 end
 
 
