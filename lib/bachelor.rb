@@ -13,7 +13,8 @@ end
 winner
 end
 
-winner(data, season)
+
+winner
 
 
 def get_first_name_of_season_winner(data, season)
