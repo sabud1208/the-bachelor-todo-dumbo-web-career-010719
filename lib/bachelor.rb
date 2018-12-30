@@ -31,7 +31,7 @@ def get_contestant_name(data, occupation)
     info.each do |stats|
       stats.each  do |key, value|
         if value == occupation
-          name = stats["name"]
+          return stats["name"]
        end
       end
     end
