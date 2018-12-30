@@ -50,9 +50,9 @@ def get_occupation(data, hometown)
   end
 end
 
-def get_average_age_for_season(data, season)
-  data.each do |season, info|
-    info.each do |stats|
-      stats.each do |key, value|
-
-end
+# def get_average_age_for_season(data, season)
+#   data.each do |season, info|
+#     info.each do |stats|
+#       stats.each do |key, value|
+#
+# end
