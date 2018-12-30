@@ -32,6 +32,7 @@ def get_contestant_name(data, occupation)
       stats.each  do |key, value|
         if value == occupation
 binding.pry
+       end
       end
     end
   end
