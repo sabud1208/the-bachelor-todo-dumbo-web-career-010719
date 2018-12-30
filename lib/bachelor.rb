@@ -5,10 +5,10 @@ def get_first_name_of_season_winner(data, season)
   data.each do |season, info|
     info.each do |contestant|
       winner << contestant["status"]
-      if winner == "Winner"
+      # if winner == "Winner"
         # contestant["name".first]
     binding.pry
-      end
+      # end
     end
   end
 end
