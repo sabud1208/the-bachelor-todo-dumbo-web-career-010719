@@ -1,19 +1,21 @@
 require "pry"
 
 def get_first_name_of_season_winner(data, season)
-  winner= []
-    data.each do |season, info|
-      info.each do |contestant|
-         contestant["status"]
-        if contestant["status"] == "Winner"
-        winner << contestant["name"].split(" ").first
-        end
-        data[season].each do |stats|
-          binding.pry
-        end
-      end
-  end
+
 end
+
+# winner= []
+#   data.each do |season, info|
+#     info.each do |contestant|
+#        contestant["status"]
+#       if contestant["status"] == "Winner"
+#       winner << contestant["name"].split(" ").first
+#       end
+#       data[season].each do |stats|
+#         binding.pry
+#       end
+#     end
+# end
 
 
 
