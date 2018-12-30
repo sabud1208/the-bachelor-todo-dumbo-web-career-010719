@@ -44,6 +44,7 @@ def count_contestants_by_hometown(data, hometown)
       stats.each do |key, value|
         binding.pry
       end
+      end
     end
 end
 
