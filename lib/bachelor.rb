@@ -27,7 +27,7 @@ end
 
 
 def get_contestant_name(data, occupation)
-  data.each do |info|
+  data.each do |season, info|
     info.each do |occupation|
     end
     binding.pry
