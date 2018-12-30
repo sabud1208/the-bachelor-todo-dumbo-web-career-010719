@@ -28,6 +28,8 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |info|
+    info.each do |occupation|
+    end
     binding.pry
   end
 end
